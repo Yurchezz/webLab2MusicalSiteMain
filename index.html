@@ -4,93 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
-    <header>
-        <div id="logo_navigation">
-            <div id="logo">Michael Jackson</div>
-            <nav>
-                <ul>
-                    <li><a href="#">Main</a></li>
-                    <li><a href="pages/news.html">News</a></li>
-                    <li><a href="#">For fans</a></li>
-                    <li class="dropdown"><a href="#"  tr>Fans appeal</a>
-                        <div class="dropdown_fans">
-                            <a href="#">Fan club</a>
-                            <a href="#">Tour schedule</a>
-                            <a href="#">Lyrics</a>
-                        </div>
-                    </li>
+<body class="container-fluid">
+    <header class=" d-flex row" >
+        <div class=" bg-dark col-sm-2 d-flex justify-content-center align-items-center text-light "><h2>MJ</h2></div>
+        <nav class="navbar navbar-expand-lg navbar-light  col-sm-10 bg-light" >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                    <li><a href="#">Concent venue</a></li>
-                    <li><a href="#">Admin</a></li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav flex-fill d-flex justify-content-around" >
+                    <li class="nav-item p-2">
+                        <a href="#" class="nav-link text-dark ">Main</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a href="pages/news.html" class="nav-link text-dark">News</a>
+                    </li> 
+                    <li class="nav-item p-2 dropdown show">
+                            <a href="#" class="nav-link text-dark dropdown-toggle" id="forFansMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">For fans</a>
+
+                            <div class="dropdown-menu" aria-labelledby="forFansMenu">
+                                <a href="#" class="dropdown-item" >Fan Club</a>
+                                <a href="#" class="dropdown-item" >Tour schedule</a>
+                                <a href="#" class="dropdown-item" >Lyrics</a>
+                            </div>
+                        </li>
+                    <li class="nav-item p-2">
+                        <a href="#" class="nav-link text-dark">Fans appeal</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a href="#" class="nav-link text-dark">Concert venue</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a href="#" class="nav-link text-dark">Admin</a>
+                    </li>
                 </ul>
-            </nav>
-        </div>
-      
+            </div>
+        </nav>
+
     </header>
-    <main>
-        <div id="cover_overlay"><p>The King</p></div>
-        <div class="cover"></div>
-        
-        <div id="about">
-            <h1>About</h1>
-            <blockquote>
-                        <p> 
-                                American singer, songwriter, and dancer. Dubbed the "King of Pop", 
-                                he is regarded as one of the most significant cultural figures of 
-                                the 20th century and one of the greatest entertainers. Jackson's 
-                                contributions to music, dance, and fashion, along with his publicized
-                                 personal life, made him a global figure in popular culture for over four decades
-                                The eighth child of the Jackson family, Michael made his professional debut in 1964
-                                 with his elder brothers Jackie, Tito, Jermaine, and Marlon as a member of the Jackson 5.
-                                  
-                                    </p>
-                                    <p>
-                                            He began his solo career in 1971 while at Motown Records, and in the early 1980s, became 
-                                            a dominant figure in popular music. His music videos, including those for "Beat It", "
-                                            Billie Jean", and "Thriller" from his 1982 album Thriller, are credited with breaking racial
-                                             barriers and transforming the medium into an art form and promotional tool. Their popularity
-                                              helped bring the television channel MTV to fame. Bad (1987) was the first album to produce 
-                                              five US Billboard Hot 100 number-one singles.
-                                    </p>
-           
-                    </blockquote>
-                      
+    <main >
+        <div class=" row  img-container d-flex justify-content-center">
+            <img src="images/mj_4k.jpg" class="col-sm-10 img-fluid cover " alt="Responsive image">
         </div>
-        <div id="best_album">
-            <div id="best_album_content">
-                <h1>Best Albums</h1>
-                <div id="img_album_covers">
-                    <div  class="album_cover" id="bad_cover">
-                        <div class="album_cover_overlay">Bad</div>
-                    </div>
-                    <div  class="album_cover" id="dangerous_cover">
-                            <div class="album_cover_overlay">Dangerous</div>
-                  
-                      
-                    </div>
-                    <div  class="album_cover" id="thriller_cover">
-                            <div class="album_cover_overlay">Thriller</div>
-                                             
-                    </div>
+        <div class=" row  ">
+            <h1 class=" col-sm-12 p-5 bg-light text-center display-4  d-flex justify-content-center" style="margin-bottom:0">About Singer</h1>
+        </div>
+        <div class="row about-content d-flex">
+           
+           
+                <img src="images/mj_face_2.jpg" class="col-sm-4 img-fluid" alt="Responsive image" >
+                <div class="col-sm-8 text-light d-flex-coll justify-content-center align-self-center  ">
+                    <h2 class="p-4">Michael Joseph Jackson </h2>
+                    <h5 class="p-4">1958 - 2009</h5>
+                    <p class="p-4"> 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, modi possimus. Pariatur iure inventore non sit explicabo, debitis aperiam ratione voluptatum molestias distinctio, commodi veniam quibusdam aliquid a minima nulla? </h3>
+                    </p>
                 </div>
+          
+            
+        </div>
+        <div class="container-fluid">
+            <h1 class="col-sm-12 p-5 bg-light text-center display-4 " style="margin-bottom:0">Best Albums</h1>
+            <div class="row ">
+                <img src="images/albumcover.jpg" class="col-sm-4 p-5" alt="Responsive image">
+                <img src="images/albumcover.jpg" class="col-sm-4 p-5" alt="Responsive image">
+                <img src="images/albumcover.jpg" class="col-sm-4 p-5" alt="Responsive image">
             </div>
         </div>
-
     </main>
-    <footer>
-    <div id="icons">
-        <img class="icon" src="images/facebook_icon.png" alt="">
-        <img class="icon" src="images/vk_icon.jpg" alt="">
-        <img class="icon" src="images/twitter_icon.png" alt="">
-        <img class="icon" src="images/gmail_icon.jpg" alt="">
-    </div>
-    <p id="directed">
-        directed by Yurii Voyevidka
-    </p>
+ 
+    <footer class="row bg-dark d-flex justify-content-center">
+            <h5 class="p-5 text-center col-sm-12 text-light" style="margin: 0" ><em>“To give someone a piece of your heart, is worth more than all the wealth in the world.”
+                    – Michael Jackson</em> 
+                </h5>
+                
     </footer>
 </body>
 </html>

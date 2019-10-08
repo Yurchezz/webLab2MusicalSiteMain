@@ -4,110 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../style.css">
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
+<body class="container-fluid">
+        <header class=" d-flex row" >
+                <div class=" bg-dark col-sm-2 d-flex justify-content-center align-items-center text-light "><h2>MJ</h2></div>
+                <nav class="navbar navbar-expand-lg navbar-light  col-sm-10 bg-light" >
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav flex-fill d-flex justify-content-around" >
+                            <li class="nav-item p-2">
+                                <a href="../index.html" class="nav-link text-dark ">Main</a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a href="#" class="nav-link text-dark">News</a>
+                            </li> 
+                            <li class="nav-item p-2 dropdown show">
+                                    <a href="#" class="nav-link text-dark dropdown-toggle" id="forFansMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">For fans</a>
+        
+                                    <div class="dropdown-menu" aria-labelledby="forFansMenu">
+                                        <a href="#" class="dropdown-item" >Fan Club</a>
+                                        <a href="#" class="dropdown-item" >Tour schedule</a>
+                                        <a href="#" class="dropdown-item" >Lyrics</a>
+                                    </div>
+                                </li>
+                            <li class="nav-item p-2">
+                                <a href="#" class="nav-link text-dark">Fans appeal</a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a href="#" class="nav-link text-dark">Concert venue</a>
+                            </li>
+                            <li class="nav-item p-2">
+                                <a href="#" class="nav-link text-dark">Admin</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+        
+            </header>
+    <main class="container" >
+        <div class="row p-3">
 
-    <header>
-        <div id="logo_navigation">
-            <div id="logo">Michael Jackson</div>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Main</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">For fans</a></li>
-                    <li><a href="#">Fans appeal</a></li>
-                    <li><a href="#">Concent venue</a></li>
-                    <li><a href="#">Admin</a></li>
-                </ul>
-            </nav>
-        </div>
-      
-    </header>
-    <main id="news_main">
-      
-        <div class="news_blocks">
-            <div class="news_block">
-                <div class="news_photo"><img src="../images/mj_dancing.jpg" alt=""></div>
-                <div class="news_title"><span>Djaz MJ in Lviv</span></div>
-                <div class="news_text"><span>Hits of the legendary Michael Jackson and
-                     Stevie Vander performed by the best jazz musicians of Ukraine in Lviv!</span>
-
-                       <span> "We are alive as long as they remember us. Jackson's music 
-                           is timeless, it still resonates with the souls of millions of
-                            people around the world. "</span></div>
-            </div>
-            <div class="news_block">
-                <div class="news_photo"><img src="../images/mj_news_2.jpg" alt=""></div>
-                <div class="news_title"><span>Bluz MJ in Lviv</span></div>
-                <div class="news_text">
-                        <span>Hits of the legendary Michael Jackson and Stevie
-                             Vander performed by the best Bluz musicians of Ukraine in Lviv!</span>
-
-                        <span> "We are alive as long as they remember us. Jackson's 
-                            music is timeless, it still resonates with the souls of 
-                            millions of people around the world. "</span>
-
+        <div class="col-sm-4">
+            <div class="card p-2">
+                <img src="../images/mf_face_1.jpg" alt="">
+                <div class="card-body">
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
                 </div>
             </div>
-            <div class="news_block">
-                <div class="news_photo"><img src="../images/mj_news_3.jpg" alt=""></div>
-                <div class="news_title"><span>Rock MJ in Lviv</span></div>
-                <div class="news_text"><span>Hits of the legendary Michael 
-                    Jackson and Stevie Vander performed by the best rock 
-                    musicians of Ukraine in Lviv!</span>
-
-                    <span> "We are alive as long as they remember us. Jackson'
-                         music is timeless, it still resonates with the souls of 
-                         millions of people around the world. "</span></div>
-            </div>
-            <div class="news_block">
-                <div class="news_photo"><img src="../images/mj_news_4.jpg" alt=""></div>
-                <div class="news_title"><span>Rap MJ in Lviv</span></div>
-                <div class="news_text"><span>Hits of the legendary Michael Jackson
-                     and Stevie Vander performed by the best rap musicians of Ukraine in Lviv!</span>
-
-                    <span> "We are alive as long as they remember us. Jackson's
-                         music is timeless, it still resonates with the souls of 
-                         millions of people around the world. "</span></div>
-            </div>
-            <div class="news_block">
-                <div class="news_photo"><img src="../images/mj_news_5.png" alt=""></div>
-                <div class="news_title"><span>Hip-hop MJ in Lviv</span></div>
-                <div class="news_text"><span>Hits of the legendary Michael Jackson
-                     and Stevie Vander performed by the best hip-hop musicians of
-                      Ukraine in Lviv!</span>
-
-                    <span> "We are alive as long as they remember us. Jackson's 
-                        music is timeless, it still resonates with the souls of 
-                        millions of people around the world. "</span></div>
-            </div>
-            <div class="news_block">
-                <div class="news_photo"><img src="../images/mj_art.jpg" alt=""></div>
-                <div class="news_title"><span>Mistery MJ in Lviv</span></div>
-                <div class="news_text"><span>Hits of the legendary Michael Jackson 
-                    and Stevie Vander performed by the best Mistery musicians of Ukraine in Lviv!</span>
-
-                    <span> "We are alive as long as they remember us. Jackson's 
-                        music is timeless, it still resonates with the souls of 
-                        millions of people around the world. "</span></div>
-            </div>
-
         </div>
-     
+        <div class="col-sm-4">
+            <div class="card p-2">
+                <img src="../images/mf_face_1.jpg" alt="">
+                <div class="card-body">
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card p-2">
+                <img src="../images/mf_face_1.jpg" alt="">
+                <div class="card-body">
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="row p-3">
+            <div class="col-sm-4">
+                <div class="card p-2">
+                    <img src="../images/mf_face_1.jpg" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card p-2">
+                    <img src="../images/mf_face_1.jpg" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card p-2">
+                    <img src="../images/mf_face_1.jpg" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                </div>
+            </div>
+    
+            </div>
     </main>
-
-    <footer>
-        <div id="icons">
-            <img class="icon" src="../images/facebook_icon.png" alt="">
-            <img class="icon" src="../images/vk_icon.jpg" alt="">
-            <img class="icon" src="../images/twitter_icon.png" alt="">
-            <img class="icon" src="../images/gmail_icon.jpg" alt="">
-        </div>
-        <p id="directed">
-            directed by Yurii Voyevidka
-        </p>
-        </footer>
+ 
+    <footer class="row d bg-dark d-flex justify-content-center">
+            <h5 class="p-5 text-center col-sm-12 text-light" style="margin: 0" ><em>“To give someone a piece of your heart, is worth more than all the wealth in the world.”
+                    – Michael Jackson</em> </h5>
+                
+    </footer>
+ 
+ 
 </body>
 </html>
