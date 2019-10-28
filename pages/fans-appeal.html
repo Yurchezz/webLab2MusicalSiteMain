@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" manifest="manifest.appcache">
+<html lang="en" manifest="../manifest.appcache">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body class="container-fluid">
@@ -22,71 +22,65 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav flex-fill d-flex justify-content-around" >
                     <li class="nav-item p-2">
-                        <a href="#" class="nav-link text-dark ">Main</a>
+                        <a href="../index.html" class="nav-link text-dark ">Main</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a href="pages/news.html" class="nav-link text-dark">News</a>
+                        <a href="news.html" class="nav-link text-dark">News</a>
                     </li> 
                     <li class="nav-item p-2 dropdown show">
                             <a href="#" class="nav-link text-dark dropdown-toggle" id="forFansMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">For fans</a>
-
                             <div class="dropdown-menu" aria-labelledby="forFansMenu">
                                 <a href="#" class="dropdown-item" >Fan Club</a>
-                                <a href="pages/for-fans.html" class="dropdown-item" >Tour schedule</a>
+                                <a href="for-fans.html" class="dropdown-item" >Tour schedule</a>
                                 <a href="#" class="dropdown-item" >Lyrics</a>
                             </div>
                         </li>
                     <li class="nav-item p-2">
-                        <a href="pages/fans-appeal.html" class="nav-link text-dark">Fans appeal</a>
+                        <a href="#" class="nav-link text-dark">Fans appeal</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a href="pages/concert-venue.html" class="nav-link text-dark">Concert venue</a>
+                        <a href="concert-venue.html" class="nav-link text-dark">Concert venue</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a href="pages/admin.html" class="nav-link text-dark">Admin</a>
+                        <a href="admin.html" class="nav-link text-dark">Admin</a>
                     </li>
                 </ul>
             </div>
         </nav>
-
     </header>
-    <main >
-        <div class=" row  img-container d-flex justify-content-center">
-            <img src="images/mj_wide_open_4k.jpg" class="col-sm-10 img-fluid cover " alt="Responsive image">
-        </div>
-        <div class=" row  ">
-            <h1 class=" col-sm-12 p-5 bg-light text-center display-4  d-flex justify-content-center" style="margin-bottom:0">About Singer</h1>
-        </div>
-        <div class="row about-content d-flex">
-           
-           
-                <img src="images/mj_face_2.jpg" class="col-md-4 img-fluid" alt="Responsive image" >
-                <div class="col-md-8 text-light d-flex-coll justify-content-center align-self-center  ">
-                    <h2 class="p-4">Michael Joseph Jackson </h2>
-                    <h5 class="p-4">1958 - 2009</h5>
-                    <p class="p-4"> 
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, modi possimus. Pariatur iure inventore non sit explicabo, debitis aperiam ratione voluptatum molestias distinctio, commodi veniam quibusdam aliquid a minima nulla? </h3>
-                    </p>
-                </div>
-          
-            
-        </div>
-        <div class="container-fluid">
-            <h1 class="col-sm-12 p-5 bg-light text-center display-4 " style="margin-bottom:0">Best Albums</h1>
-            <div class="row ">
-                <img src="images/albumcover.jpg" class="col-sm-4 p-5" alt="Responsive image">
-                <img src="images/albumcover.jpg" class="col-sm-4 p-5" alt="Responsive image">
-                <img src="images/albumcover.jpg" class="col-sm-4 p-5" alt="Responsive image">
+    <main class="container">
+        <div id="appeals">
+        <div class="row d-flex justify-content-center border border-dark border-top-1 border-bottom-0 border-left-0 border-right-0 mt-5 mb-5">
+            <div class="col-md-2 p-2 mt-4 d-flex-col align-items-center">
+                <p>John Johnson</p>
+                <p>22:22</p>
+                <p>09.09.19</p>
+            </div>
+            <div class="col-md-8 p-2 mt-4 d-flex-col ">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quis distinctio alias dolorum suscipit debitis omnis non quos itaque consequuntur enim nostrum, culpa, assumenda unde. Adipisci omnis inventore beatae vitae.
+            </div>
+        </div>        
+         <div class="row d-flex justify-content-center border border-dark border-top-1 border-bottom-0 border-left-0 border-right-0 mt-5 mb-5">
+            <div class="col-md-2 p-2 mt-4 d-flex-col align-items-center">
+                <p>John Johnson</p>
+                <p>22:22</p>
+                <p>09.09.19</p>
+            </div>
+            <div class="col-md-8 p-2 mt-4 d-flex-col ">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quis distinctio alias dolorum suscipit debitis omnis non quos itaque consequuntur enim nostrum, culpa, assumenda unde. Adipisci omnis inventore beatae vitae.
             </div>
         </div>
+        </div>
+        <form class="row d-flex justify-content-center border border-dark border-top-1 border-bottom-0 border-left-0 border-right-0 mt-5 mb-5">
+            <div class="col-md-2 p-2 mt-4 d-flex align-items-end">
+                    <button type="button" class="btn btn-dark" id="send_appeal" onclick="addAppeal()">Send</button>  
+            </div>
+            <input type="textarea" class="col-md-8  mt-4 form-control-lg" id="appeal_text" placeholder="Write an appeal..."> </input>
+        </form>
     </main>
- 
-    <footer class="row bg-dark d-flex justify-content-center">
-            <h5 class="p-5 text-center col-sm-12 text-light" style="margin: 0" ><em>“To give someone a piece of your heart, is worth more than all the wealth in the world.”
-                    </em> 
-                </h5>
-                
+    <footer class="row d bg-dark d-flex justify-content-center">
+            <h5 class="p-5 text-center col-sm-12 text-light" style="margin: 0" ><em>“A star can never die. It just turns into a smile and melts back into the cosmic music, the dance of life.”</em> </h5>
     </footer>
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
 </body>
-</html>
+</html>  

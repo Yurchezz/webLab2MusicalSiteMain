@@ -7,3 +7,10 @@
 img{
     object-fit: cover;
 }
+#map {
+    height: 400px;  
+    width: 100%;  
+}
+main{
+    min-height: 800px;
+}
