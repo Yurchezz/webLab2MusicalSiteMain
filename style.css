@@ -14,3 +14,6 @@ img{
 main{
     min-height: 800px;
 }
+.card img{
+    max-height: 300px;
+}

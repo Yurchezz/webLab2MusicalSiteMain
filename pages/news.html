@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body class="container-fluid">
+<body class="container-fluid" onload="newsGeneration()">
         <header class=" d-flex row" >
                 <div class=" bg-dark col-sm-2 d-flex justify-content-center align-items-center text-light "><h2>MJ</h2></div>
                 <nav class="navbar navbar-expand-lg navbar-light  col-sm-10 bg-light" >
@@ -50,10 +50,17 @@
                 </nav>
         
             </header>
-    <main class="container" >
-        <div class="row p-3">
+    <main class="d-flex flex-wrap" id="news_container">
 
-        <div class="col-md-4">
+        <div class="col-md-4 p-2">
+            <div class="card p-2">
+                <img src="../images/mf_face_1.jpg"  alt="">
+                <div class="card-body">
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 p-2">
             <div class="card p-2">
                 <img src="../images/mf_face_1.jpg" alt="">
                 <div class="card-body">
@@ -61,7 +68,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 p-2">
             <div class="card p-2">
                 <img src="../images/mf_face_1.jpg" alt="">
                 <div class="card-body">
@@ -69,18 +76,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card p-2">
-                <img src="../images/mf_face_1.jpg" alt="">
-                <div class="card-body">
-                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-                </div>
-            </div>
-        </div>
-        </div>
+ 
 
-        <div class="row p-3">
-            <div class="col-md-4">
+
+            <div class="col-md-4 p-2">
                 <div class="card p-2">
                     <img src="../images/mf_face_1.jpg" alt="">
                     <div class="card-body">
@@ -88,7 +87,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 p-2">
                 <div class="card p-2">
                     <img src="../images/mf_face_1.jpg" alt="">
                     <div class="card-body">
@@ -96,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 p-2">
                 <div class="card p-2">
                     <img src="../images/mf_face_1.jpg" alt="">
                     <div class="card-body">
@@ -105,7 +104,7 @@
                 </div>
             </div>
     
-            </div>
+      
     </main>
  
     <footer class="row d bg-dark d-flex justify-content-center">
