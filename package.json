@@ -1,0 +1,32 @@
+{
+  "name": "lab11restwithmango",
+  "version": "1.0.0",
+  "description": "Lab11 made with NodeJS, MongoDB and Love",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "restful",
+    "json"
+  ],
+  "author": "Yurii Voievidka",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jQuery": "^1.7.4",
+    "mongoose": "^5.7.14"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yurchezz/Lab11RESTwithMongoDB.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yurchezz/Lab11RESTwithMongoDB/issues"
+  },
+  "homepage": "https://github.com/Yurchezz/Lab11RESTwithMongoDB#readme"
+}
